@@ -2,7 +2,7 @@ const { ethers } = require('ethers');
 require('dotenv').config();
 
 /**
- * `localProvider` - 本地以太坊节点
+ * `localProvider` - 本地以太坊节点，由Hardhat启动，默认端口为8545
  * `mainnetProvider` - 主网节点
  * `testnetProvider` - 测试网节点
  */
