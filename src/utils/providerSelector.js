@@ -20,7 +20,7 @@ const testnetProvider = new ethers.AlchemyProvider(
 
 
 // 当前使用中的provider
-const provider = mainnetProvider;
+const provider = localProvider;
 
 module.exports = {
     localProvider,
